@@ -1,0 +1,24 @@
+{
+  "test": {
+    "test_loss": 0.017269201576709747,
+    "test_model_preparation_time": 0.014,
+    "test_f1_micro": 0.9625591565326783,
+    "test_f1_macro": 0.7342585675387536,
+    "test_precision_micro": 0.9687688411913662,
+    "test_recall_micro": 0.9564285714285714,
+    "test_runtime": 122.2449,
+    "test_samples_per_second": 49.638,
+    "test_steps_per_second": 6.209
+  },
+  "natural_test": {
+    "test_loss": 0.01940087229013443,
+    "test_model_preparation_time": 0.014,
+    "test_f1_micro": 0.9613229834627067,
+    "test_f1_macro": 0.747579497391036,
+    "test_precision_micro": 0.9639907946392311,
+    "test_recall_micro": 0.9586698976844372,
+    "test_runtime": 117.6514,
+    "test_samples_per_second": 42.371,
+    "test_steps_per_second": 5.304
+  }
+}

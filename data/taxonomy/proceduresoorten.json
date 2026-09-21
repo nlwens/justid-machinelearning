@@ -1,0 +1,180 @@
+{
+  "procedures": [
+    {
+      "name": "Artikel 81 RO-zaken",
+      "uri": "http://psi.rechtspraak.nl/procedure#artikel81ROzaken"
+    },
+    {
+      "name": "Bodemzaak",
+      "uri": "http://psi.rechtspraak.nl/procedure#bodemzaak"
+    },
+    {
+      "name": "Cassatie",
+      "uri": "http://psi.rechtspraak.nl/procedure#cassatie"
+    },
+    {
+      "name": "Cassatie in het belang der wet",
+      "uri": "http://psi.rechtspraak.nl/procedure#cassatieInHetBelangDerWet"
+    },
+    {
+      "name": "Conservatoire maatregel",
+      "uri": "http://psi.rechtspraak.nl/procedure#conservatoireMaatregel"
+    },
+    {
+      "name": "Eerste aanleg - enkelvoudig",
+      "uri": "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig"
+    },
+    {
+      "name": "Eerste aanleg - meervoudig",
+      "uri": "http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig"
+    },
+    {
+      "name": "Eerste en enige aanleg",
+      "uri": "http://psi.rechtspraak.nl/procedure#eersteEnEnigeAanleg"
+    },
+    {
+      "name": "Herziening",
+      "uri": "http://psi.rechtspraak.nl/procedure#herziening"
+    },
+    {
+      "name": "Hoger beroep",
+      "uri": "http://psi.rechtspraak.nl/procedure#hogerBeroep"
+    },
+    {
+      "name": "Hoger beroep kort geding",
+      "uri": "http://psi.rechtspraak.nl/procedure#hogerBeroepKortGeding"
+    },
+    {
+      "name": "Kort geding",
+      "uri": "http://psi.rechtspraak.nl/procedure#kortGeding"
+    },
+    {
+      "name": "Mondelinge uitspraak",
+      "uri": "http://psi.rechtspraak.nl/procedure#mondelingeUitspraak"
+    },
+    {
+      "name": "Peek",
+      "uri": "http://psi.rechtspraak.nl/procedure#peek"
+    },
+    {
+      "name": "Prejudiciële beslissing",
+      "uri": "http://psi.rechtspraak.nl/procedure#prejudicieleBeslissing"
+    },
+    {
+      "name": "Prejudicieel verzoek",
+      "uri": "http://psi.rechtspraak.nl/procedure#prejudicieelVerzoek"
+    },
+    {
+      "name": "Prejudiciële spoedprocedure (PPU)",
+      "uri": "http://psi.rechtspraak.nl/procedure#prejudicieleSpoedprocedure(PPU)"
+    },
+    {
+      "name": "Proceskostenveroordeling",
+      "uri": "http://psi.rechtspraak.nl/procedure#proceskostenveroordeling"
+    },
+    {
+      "name": "Proces-verbaal",
+      "uri": "http://psi.rechtspraak.nl/procedure#procesverbaal"
+    },
+    {
+      "name": "Raadkamer",
+      "uri": "http://psi.rechtspraak.nl/procedure#raadkamer"
+    },
+    {
+      "name": "Rekestprocedure",
+      "uri": "http://psi.rechtspraak.nl/procedure#rekestprocedure"
+    },
+    {
+      "name": "Schadevergoedingsuitspraak",
+      "uri": "http://psi.rechtspraak.nl/procedure#schadevergoedingsuitspraak"
+    },
+    {
+      "name": "Tussenuitspraak bestuurlijke lus",
+      "uri": "http://psi.rechtspraak.nl/procedure#tussenuitspraakBestuurlijkeLus"
+    },
+    {
+      "name": "Uitspraak na prejudiciële beslissing",
+      "uri": "http://psi.rechtspraak.nl/procedure#uitspraakNaPrejudicieleBeslissing"
+    },
+    {
+      "name": "Vereenvoudigde behandeling",
+      "uri": "http://psi.rechtspraak.nl/procedure#vereenvoudigdeBehandeling"
+    },
+    {
+      "name": "Versnelde behandeling",
+      "uri": "http://psi.rechtspraak.nl/procedure#versneldeBehandeling"
+    },
+    {
+      "name": "Verstek",
+      "uri": "http://psi.rechtspraak.nl/procedure#verstek"
+    },
+    {
+      "name": "Verwijzing na Hoge Raad",
+      "uri": "http://psi.rechtspraak.nl/procedure#verwijzingNaHogeRaad"
+    },
+    {
+      "name": "Verzet",
+      "uri": "http://psi.rechtspraak.nl/procedure#verzet"
+    },
+    {
+      "name": "Voorlopige voorziening",
+      "uri": "http://psi.rechtspraak.nl/procedure#voorlopigeVoorziening"
+    },
+    {
+      "name": "Voorlopige voorziening+bodemzaak",
+      "uri": "http://psi.rechtspraak.nl/procedure#voorlopigeVoorzieningbodemzaak"
+    },
+    {
+      "name": "Wraking",
+      "uri": "http://psi.rechtspraak.nl/procedure#wraking"
+    },
+    {
+      "name": "Op tegenspraak",
+      "uri": "http://psi.rechtspraak.nl/procedure#opTegenspraak"
+    },
+    {
+      "name": "Belemmeringenwet Privaatrecht",
+      "uri": "http://psi.rechtspraak.nl/procedure#belemmeringenwetPrivaatrecht"
+    },
+    {
+      "name": "Artikel 80a RO-zaken",
+      "uri": "http://psi.rechtspraak.nl/procedure#artikel80aROzaken"
+    },
+    {
+      "name": "Beschikking",
+      "uri": "http://psi.rechtspraak.nl/procedure#beschikking"
+    },
+    {
+      "name": "Tussenbeschikking",
+      "uri": "http://psi.rechtspraak.nl/procedure#tussenbeschikking"
+    },
+    {
+      "name": "Herroeping",
+      "uri": "http://psi.rechtspraak.nl/procedure#herroeping"
+    },
+    {
+      "name": "Verschoning",
+      "uri": "http://psi.rechtspraak.nl/procedure#verschoning"
+    },
+    {
+      "name": "Tussenuitspraak",
+      "uri": "http://psi.rechtspraak.nl/procedure#tussenuitspraak"
+    },
+    {
+      "name": "Geheimhoudingsbeslissing",
+      "uri": "http://psi.rechtspraak.nl/procedure#geheimhoudingsbeslissing"
+    },
+    {
+      "name": "NCC",
+      "uri": "http://psi.rechtspraak.nl/procedure#NCC"
+    },
+    {
+      "name": "NCCA",
+      "uri": "http://psi.rechtspraak.nl/procedure#NCCA"
+    },
+    {
+      "name": "Beslissing RC",
+      "uri": "http://psi.rechtspraak.nl/procedure#beslissingRC"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# ---------------------------------------------------------------------------
+# Stage 1 -- data acquisition and dataset construction.
+# These are small, install first so the pipeline can be validated before
+# committing to the multi-gigabyte deep learning stack below.
+# ---------------------------------------------------------------------------
+requests==2.32.3
+pandas==2.2.3
+tqdm==4.67.1
+
+# ---------------------------------------------------------------------------
+# Stage 2 -- modelling. Install only once the dataset is on disk.
+#
+# torch is pinned to a CUDA 12.1 build because the target machine has an
+# RTX 3050 Laptop (Ampere, 4 GB VRAM). Install it with the dedicated index:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# ---------------------------------------------------------------------------
+scikit-learn==1.5.2
+transformers==4.46.3
+datasets==3.1.0
+accelerate==1.1.1

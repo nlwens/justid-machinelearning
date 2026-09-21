@@ -1,0 +1,18 @@
+# Virtual environment and Python caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter scratch
+.ipynb_checkpoints/
+
+# Corpus (5.2 GB). Not committed: rebuild it from the Rechtspraak Open Data API
+# with download/step1_fetch_taxonomy.py .. step5_build_dataset.py. The exact
+# sample is reproducible because data/processed/splits.json pins every ECLI.
+data/raw/
+data/interim/
+data/processed/*.jsonl
+
+# Trained weights (416 MB per model). Published on the Hugging Face Hub instead.
+# Metrics live in results/ so they stay in version control.
+models/

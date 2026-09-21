@@ -1,0 +1,364 @@
+{
+  "roots": [
+    "Bestuursrecht",
+    "Civiel recht",
+    "Strafrecht",
+    "Internationaal publiekrecht"
+  ],
+  "areas": [
+    {
+      "name": "Bestuursrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht",
+      "parent": null,
+      "composite": "Bestuursrecht",
+      "level": 1
+    },
+    {
+      "name": "Ambtenarenrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_ambtenarenrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Ambtenarenrecht",
+      "level": 2
+    },
+    {
+      "name": "Belastingrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Belastingrecht",
+      "level": 2
+    },
+    {
+      "name": "Bestuursprocesrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_bestuursprocesrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Bestuursprocesrecht",
+      "level": 2
+    },
+    {
+      "name": "Bestuursstrafrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_bestuursstrafrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Bestuursstrafrecht",
+      "level": 2
+    },
+    {
+      "name": "Europees bestuursrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_europeesBestuursrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Europees bestuursrecht",
+      "level": 2
+    },
+    {
+      "name": "Mededingingsrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_mededingingsrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Mededingingsrecht",
+      "level": 2
+    },
+    {
+      "name": "Omgevingsrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_omgevingsrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Omgevingsrecht",
+      "level": 2
+    },
+    {
+      "name": "Socialezekerheidsrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_socialezekerheidsrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Socialezekerheidsrecht",
+      "level": 2
+    },
+    {
+      "name": "Vreemdelingenrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_vreemdelingenrecht",
+      "parent": "Bestuursrecht",
+      "composite": "Bestuursrecht; Vreemdelingenrecht",
+      "level": 2
+    },
+    {
+      "name": "Civiel recht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht",
+      "parent": null,
+      "composite": "Civiel recht",
+      "level": 1
+    },
+    {
+      "name": "Aanbestedingsrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_aanbestedingsrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Aanbestedingsrecht",
+      "level": 2
+    },
+    {
+      "name": "Arbeidsrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_arbeidsrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Arbeidsrecht",
+      "level": 2
+    },
+    {
+      "name": "Burgerlijk procesrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_burgerlijkProcesrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Burgerlijk procesrecht",
+      "level": 2
+    },
+    {
+      "name": "Europees civiel recht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_europeesCivielRecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Europees civiel recht",
+      "level": 2
+    },
+    {
+      "name": "Goederenrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_goederenrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Goederenrecht",
+      "level": 2
+    },
+    {
+      "name": "Insolventierecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_insolventierecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Insolventierecht",
+      "level": 2
+    },
+    {
+      "name": "Intellectueel-eigendomsrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_intellectueeleigendomsrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Intellectueel-eigendomsrecht",
+      "level": 2
+    },
+    {
+      "name": "Internationaal privaatrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_internationaalPrivaatrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Internationaal privaatrecht",
+      "level": 2
+    },
+    {
+      "name": "Mededingingsrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_mededingingsrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Mededingingsrecht",
+      "level": 2
+    },
+    {
+      "name": "Ondernemingsrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_ondernemingsrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Ondernemingsrecht",
+      "level": 2
+    },
+    {
+      "name": "Personen- en familierecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_personenEnFamilierecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Personen- en familierecht",
+      "level": 2
+    },
+    {
+      "name": "Verbintenissenrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_verbintenissenrecht",
+      "parent": "Civiel recht",
+      "composite": "Civiel recht; Verbintenissenrecht",
+      "level": 2
+    },
+    {
+      "name": "Strafrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#strafrecht",
+      "parent": null,
+      "composite": "Strafrecht",
+      "level": 1
+    },
+    {
+      "name": "Europees strafrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#strafrecht_europeesStrafrecht",
+      "parent": "Strafrecht",
+      "composite": "Strafrecht; Europees strafrecht",
+      "level": 2
+    },
+    {
+      "name": "Internationaal strafrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#strafrecht_internationaalStrafrecht",
+      "parent": "Strafrecht",
+      "composite": "Strafrecht; Internationaal strafrecht",
+      "level": 2
+    },
+    {
+      "name": "Materieel strafrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#strafrecht_materieelStrafrecht",
+      "parent": "Strafrecht",
+      "composite": "Strafrecht; Materieel strafrecht",
+      "level": 2
+    },
+    {
+      "name": "Penitentiair strafrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#strafrecht_penitentiairStrafrecht",
+      "parent": "Strafrecht",
+      "composite": "Strafrecht; Penitentiair strafrecht",
+      "level": 2
+    },
+    {
+      "name": "Strafprocesrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#strafrecht_strafprocesrecht",
+      "parent": "Strafrecht",
+      "composite": "Strafrecht; Strafprocesrecht",
+      "level": 2
+    },
+    {
+      "name": "Internationaal publiekrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht",
+      "parent": null,
+      "composite": "Internationaal publiekrecht",
+      "level": 1
+    },
+    {
+      "name": "Mensenrechten",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht_mensenrechten",
+      "parent": "Internationaal publiekrecht",
+      "composite": "Internationaal publiekrecht; Mensenrechten",
+      "level": 2
+    },
+    {
+      "name": "Volkenrecht",
+      "uri": "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht_volkenrecht",
+      "parent": "Internationaal publiekrecht",
+      "composite": "Internationaal publiekrecht; Volkenrecht",
+      "level": 2
+    }
+  ],
+  "composite_to_pair": {
+    "Bestuursrecht": [
+      "Bestuursrecht",
+      null
+    ],
+    "Bestuursrecht; Ambtenarenrecht": [
+      "Bestuursrecht",
+      "Ambtenarenrecht"
+    ],
+    "Bestuursrecht; Belastingrecht": [
+      "Bestuursrecht",
+      "Belastingrecht"
+    ],
+    "Bestuursrecht; Bestuursprocesrecht": [
+      "Bestuursrecht",
+      "Bestuursprocesrecht"
+    ],
+    "Bestuursrecht; Bestuursstrafrecht": [
+      "Bestuursrecht",
+      "Bestuursstrafrecht"
+    ],
+    "Bestuursrecht; Europees bestuursrecht": [
+      "Bestuursrecht",
+      "Europees bestuursrecht"
+    ],
+    "Bestuursrecht; Mededingingsrecht": [
+      "Bestuursrecht",
+      "Mededingingsrecht"
+    ],
+    "Bestuursrecht; Omgevingsrecht": [
+      "Bestuursrecht",
+      "Omgevingsrecht"
+    ],
+    "Bestuursrecht; Socialezekerheidsrecht": [
+      "Bestuursrecht",
+      "Socialezekerheidsrecht"
+    ],
+    "Bestuursrecht; Vreemdelingenrecht": [
+      "Bestuursrecht",
+      "Vreemdelingenrecht"
+    ],
+    "Civiel recht": [
+      "Civiel recht",
+      null
+    ],
+    "Civiel recht; Aanbestedingsrecht": [
+      "Civiel recht",
+      "Aanbestedingsrecht"
+    ],
+    "Civiel recht; Arbeidsrecht": [
+      "Civiel recht",
+      "Arbeidsrecht"
+    ],
+    "Civiel recht; Burgerlijk procesrecht": [
+      "Civiel recht",
+      "Burgerlijk procesrecht"
+    ],
+    "Civiel recht; Europees civiel recht": [
+      "Civiel recht",
+      "Europees civiel recht"
+    ],
+    "Civiel recht; Goederenrecht": [
+      "Civiel recht",
+      "Goederenrecht"
+    ],
+    "Civiel recht; Insolventierecht": [
+      "Civiel recht",
+      "Insolventierecht"
+    ],
+    "Civiel recht; Intellectueel-eigendomsrecht": [
+      "Civiel recht",
+      "Intellectueel-eigendomsrecht"
+    ],
+    "Civiel recht; Internationaal privaatrecht": [
+      "Civiel recht",
+      "Internationaal privaatrecht"
+    ],
+    "Civiel recht; Mededingingsrecht": [
+      "Civiel recht",
+      "Mededingingsrecht"
+    ],
+    "Civiel recht; Ondernemingsrecht": [
+      "Civiel recht",
+      "Ondernemingsrecht"
+    ],
+    "Civiel recht; Personen- en familierecht": [
+      "Civiel recht",
+      "Personen- en familierecht"
+    ],
+    "Civiel recht; Verbintenissenrecht": [
+      "Civiel recht",
+      "Verbintenissenrecht"
+    ],
+    "Strafrecht": [
+      "Strafrecht",
+      null
+    ],
+    "Strafrecht; Europees strafrecht": [
+      "Strafrecht",
+      "Europees strafrecht"
+    ],
+    "Strafrecht; Internationaal strafrecht": [
+      "Strafrecht",
+      "Internationaal strafrecht"
+    ],
+    "Strafrecht; Materieel strafrecht": [
+      "Strafrecht",
+      "Materieel strafrecht"
+    ],
+    "Strafrecht; Penitentiair strafrecht": [
+      "Strafrecht",
+      "Penitentiair strafrecht"
+    ],
+    "Strafrecht; Strafprocesrecht": [
+      "Strafrecht",
+      "Strafprocesrecht"
+    ],
+    "Internationaal publiekrecht": [
+      "Internationaal publiekrecht",
+      null
+    ],
+    "Internationaal publiekrecht; Mensenrechten": [
+      "Internationaal publiekrecht",
+      "Mensenrechten"
+    ],
+    "Internationaal publiekrecht; Volkenrecht": [
+      "Internationaal publiekrecht",
+      "Volkenrecht"
+    ]
+  }
+}
