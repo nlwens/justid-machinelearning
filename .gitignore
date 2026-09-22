@@ -6,12 +6,22 @@ __pycache__/
 # Jupyter scratch
 .ipynb_checkpoints/
 
-# Corpus (5.2 GB). Not committed: rebuild it from the Rechtspraak Open Data API
-# with download/step1_fetch_taxonomy.py .. step5_build_dataset.py. The exact
-# sample is reproducible because data/processed/splits.json pins every ECLI.
+# Corpus (several GB). Not committed.
 data/raw/
 data/interim/
 data/processed/*.jsonl
+data/processed/splits.json
+data/processed/clean_notes.json
+data/taxonomy/
+
+# Crawl and one-off helpers. Kept on disk, not part of this repo.
+download/
+start_notebook.bat
+upload_models.py
+
+# Notebook / IDE leftovers
+notebooks/pyrightconfig.json
+results/*_labels.json
 
 # Trained weights (416 MB per model). Published on the Hugging Face Hub instead.
 # Metrics live in results/ so they stay in version control.

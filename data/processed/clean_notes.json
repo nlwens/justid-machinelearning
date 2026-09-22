@@ -1,7 +1,0 @@
-{
-  "source": "../data/interim/parsed.jsonl",
-  "min_text_length": 500,
-  "rows_before": 65480,
-  "rows_after": 65316,
-  "rows_dropped_short": 164
-}
