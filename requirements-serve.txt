@@ -1,0 +1,7 @@
+# Runtime only. The image installs CPU torch separately.
+fastapi==0.115.6
+uvicorn==0.32.1
+python-multipart==0.0.17
+pdfplumber==0.11.4
+transformers==4.46.3
+huggingface_hub==0.26.5

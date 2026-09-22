@@ -1,0 +1,13 @@
+.venv
+.git
+.gitignore
+__pycache__
+.ipynb_checkpoints
+data
+models
+notebooks
+results
+download
+*.ipynb
+upload_models.py
+start_notebook.bat

@@ -21,7 +21,7 @@ Each line looks like
       "text_source": "uitspraak",
       "rechtsgebieden": ["Bestuursrecht", "Vreemdelingenrecht"],
       "rechtsgebieden_raw": ["Bestuursrecht; Vreemdelingenrecht"],
-      "procedures": ["Hoger beroep"],
+      "bijzondere_kenmerken": ["Hoger beroep"],
       "pool": "balanced",
       "year": 2007,
       "area": "Bestuursrecht"

@@ -18,3 +18,11 @@ scikit-learn==1.5.2
 transformers==4.46.3
 datasets==3.1.0
 accelerate==1.1.1
+
+# ---------------------------------------------------------------------------
+# Stage 3 -- serving. Not needed for training or evaluation.
+# ---------------------------------------------------------------------------
+fastapi==0.115.6
+uvicorn==0.32.1
+python-multipart==0.0.17
+pdfplumber==0.11.4

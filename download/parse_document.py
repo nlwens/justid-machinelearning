@@ -105,14 +105,14 @@ def parse_xml(
                 seen_rg.add(label)
                 rechtsgebieden.append(label)
 
-    # Procedure tags are already the official names; just de-duplicate.
-    procedures: list[str] = []
-    seen_pr: set[str] = set()
+    # XML tag is still `procedure`; the public name is bijzondere kenmerken.
+    bijzondere_kenmerken: list[str] = []
+    seen_bk: set[str] = set()
     for raw in _texts_with_name(root, "procedure"):
         name = " ".join(raw.split())
-        if name and name not in seen_pr:
-            seen_pr.add(name)
-            procedures.append(name)
+        if name and name not in seen_bk:
+            seen_bk.add(name)
+            bijzondere_kenmerken.append(name)
 
     # Prefer the full ruling. A few files are opinions (conclusie) instead.
     # The short summary is a last resort and is usually too brief to keep.
@@ -134,7 +134,7 @@ def parse_xml(
         "text_source": text_source if text else "",
         "rechtsgebieden": rechtsgebieden,
         "rechtsgebieden_raw": raw_subjects,
-        "procedures": procedures,
+        "bijzondere_kenmerken": bijzondere_kenmerken,
     }
 
 

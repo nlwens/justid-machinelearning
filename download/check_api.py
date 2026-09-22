@@ -125,7 +125,7 @@ def main() -> None:
     )
     results.append(
         check(
-            "document carries a procedure type (psi:procedure)",
+            "document carries bijzondere kenmerken (psi:procedure)",
             "psi:procedure" in xml_text,
         )
     )

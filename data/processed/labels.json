@@ -36,7 +36,7 @@
     "Mensenrechten",
     "Mededingingsrecht"
   ],
-  "procedures_keep": [
+  "bijzondere_kenmerken_keep": [
     "Hoger beroep",
     "Eerste aanleg - meervoudig",
     "Eerste aanleg - enkelvoudig",
@@ -63,7 +63,7 @@
     "Vereenvoudigde behandeling",
     "Tussenuitspraak bestuurlijke lus"
   ],
-  "procedures_rare": [
+  "bijzondere_kenmerken_rare": [
     "Verstek",
     "Tussenbeschikking",
     "Verwijzing na Hoge Raad",

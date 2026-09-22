@@ -43,7 +43,7 @@ A label is kept if its sigmoid score is at least 0.5.
 Code and notebooks: [nlwens/justid-machinelearning](https://github.com/nlwens/justid-machinelearning)
 """
 
-PR_CARD = """---
+BK_CARD = """---
 language: nl
 license: apache-2.0
 library_name: transformers
@@ -55,9 +55,9 @@ tags:
 base_model: GroNLP/bert-base-dutch-cased
 ---
 
-# JustID procedures
+# JustID bijzondere kenmerken
 
-BERTje fine-tuned to assign one or more Dutch procedure-type labels to a court ruling.
+BERTje fine-tuned to assign one or more bijzondere-kenmerken labels to a court ruling.
 A label is kept if its sigmoid score is at least 0.5.
 
 Code and notebooks: [nlwens/justid-machinelearning](https://github.com/nlwens/justid-machinelearning)
@@ -84,7 +84,7 @@ def main() -> None:
     if user != "newnus":
         print("expected Hugging Face user newnus")
     upload_one(config.RG_MODEL_DIR, config.RG_HUB_ID, RG_CARD)
-    upload_one(config.PR_MODEL_DIR, config.PR_HUB_ID, PR_CARD)
+    upload_one(config.BK_MODEL_DIR, config.BK_HUB_ID, BK_CARD)
     print("done")
 
 

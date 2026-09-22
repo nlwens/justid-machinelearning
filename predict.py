@@ -1,8 +1,8 @@
 """Score a Dutch ruling with the two JustID BERTje models.
 
-Loads local `models/rg` and `models/pr` when those folders have weights.
+Loads local `models/rg` and `models/bk` when those folders have weights.
 Otherwise it downloads `newnus/justid-rechtsgebieden` and
-`newnus/justid-procedures` from the Hugging Face Hub.
+`newnus/justid-bijzondere-kenmerken` from the Hugging Face Hub.
 """
 
 from __future__ import annotations
@@ -25,13 +25,13 @@ class JustIdModels:
     def __init__(
         self,
         rg_dir: Path | str | None = None,
-        pr_dir: Path | str | None = None,
+        bk_dir: Path | str | None = None,
         threshold: float | None = None,
         max_len: int | None = None,
         device: str | None = None,
     ) -> None:
         self.rg_source = _resolve(rg_dir, config.RG_MODEL_DIR, config.RG_HUB_ID)
-        self.pr_source = _resolve(pr_dir, config.PR_MODEL_DIR, config.PR_HUB_ID)
+        self.bk_source = _resolve(bk_dir, config.BK_MODEL_DIR, config.BK_HUB_ID)
         self.threshold = config.LABEL_THRESHOLD if threshold is None else threshold
         self.max_len = config.MAX_LEN if max_len is None else max_len
         if device is None:
@@ -39,11 +39,11 @@ class JustIdModels:
         self.device = torch.device(device)
 
         self.rg_labels = _load_labels(self.rg_source)
-        self.pr_labels = _load_labels(self.pr_source)
+        self.bk_labels = _load_labels(self.bk_source)
         self.rg_tokenizer = AutoTokenizer.from_pretrained(self.rg_source)
-        self.pr_tokenizer = AutoTokenizer.from_pretrained(self.pr_source)
+        self.bk_tokenizer = AutoTokenizer.from_pretrained(self.bk_source)
         self.rg_model = _load_model(self.rg_source, len(self.rg_labels), self.device)
-        self.pr_model = _load_model(self.pr_source, len(self.pr_labels), self.device)
+        self.bk_model = _load_model(self.bk_source, len(self.bk_labels), self.device)
 
     def predict(self, text: str, threshold: float | None = None) -> dict[str, TaskScores]:
         """Return kept labels with scores for both tasks."""
@@ -52,7 +52,9 @@ class JustIdModels:
         cut = self.threshold if threshold is None else threshold
         return {
             "rechtsgebieden": self._score(text, self.rg_tokenizer, self.rg_model, self.rg_labels, cut),
-            "procedures": self._score(text, self.pr_tokenizer, self.pr_model, self.pr_labels, cut),
+            "bijzondere_kenmerken": self._score(
+                text, self.bk_tokenizer, self.bk_model, self.bk_labels, cut
+            ),
         }
 
     def _score(
@@ -124,7 +126,7 @@ def main() -> None:
     text = "\n".join(lines).strip()
     out = bundle.predict(text)
     print("\nrechtsgebieden:", out["rechtsgebieden"])
-    print("procedures:", out["procedures"])
+    print("bijzondere_kenmerken:", out["bijzondere_kenmerken"])
 
 
 if __name__ == "__main__":

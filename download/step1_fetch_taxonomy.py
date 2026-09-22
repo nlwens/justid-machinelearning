@@ -128,7 +128,7 @@ def parse_proceduresoorten(xml_text: str) -> dict:
     """
     root = ET.fromstring(xml_text)
 
-    procedures: list[dict] = []
+    items: list[dict] = []
     seen: set[str] = set()
 
     for element in root.iter():
@@ -136,14 +136,14 @@ def parse_proceduresoorten(xml_text: str) -> dict:
         if not name or name in seen:
             continue
         seen.add(name)
-        procedures.append(
+        items.append(
             {
                 "name": name,
                 "uri": (element.findtext("Identifier") or "").strip(),
             }
         )
 
-    return {"procedures": procedures}
+    return {"bijzondere_kenmerken": items}
 
 
 def main() -> None:
@@ -182,7 +182,7 @@ def main() -> None:
     (config.TAXONOMY_DIR / "proceduresoorten.json").write_text(
         json.dumps(proceduresoorten, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"  {len(proceduresoorten['procedures'])} procedure types")
+    print(f"  {len(proceduresoorten['bijzondere_kenmerken'])} bijzondere kenmerken")
 
     # --- Cross-check the stratification keys in config -------------------
     # config.STRATUM_SUBJECTS hardcodes four PSI URIs. If Rechtspraak ever

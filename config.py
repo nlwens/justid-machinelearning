@@ -39,7 +39,7 @@ INTERIM_DIR = DATA_DIR / "interim"
 # Later notebook outputs (train/val/test). Not written by the download steps.
 PROCESSED_DIR = DATA_DIR / "processed"
 
-# The official controlled vocabularies (law areas, procedure types).
+# The official controlled vocabularies (law areas, bijzondere kenmerken).
 TAXONOMY_DIR = DATA_DIR / "taxonomy"
 
 ALL_DIRS = [DATA_DIR, RAW_DIR, INTERIM_DIR, PROCESSED_DIR, TAXONOMY_DIR]
@@ -76,7 +76,7 @@ CONTENT_URL = "https://data.rechtspraak.nl/uitspraken/content"
 TAXONOMY_URLS = {
     # Law areas (labels for the 'rechtsgebieden' task). Nested two levels deep.
     "rechtsgebieden": "https://data.rechtspraak.nl/Waardelijst/Rechtsgebieden",
-    # Procedure types (labels for the 'bijzondere kenmerken' task). Flat.
+    # Official word list behind the bijzondere-kenmerken task. Flat.
     "proceduresoorten": "https://data.rechtspraak.nl/Waardelijst/Proceduresoorten",
 }
 
@@ -233,8 +233,8 @@ TEST_FRACTION = 0.1
 
 MODELS_DIR = BASE_DIR / "models"
 RG_MODEL_DIR = MODELS_DIR / "rg"
-PR_MODEL_DIR = MODELS_DIR / "pr"
+BK_MODEL_DIR = MODELS_DIR / "bk"
 RG_HUB_ID = "newnus/justid-rechtsgebieden"
-PR_HUB_ID = "newnus/justid-procedures"
+BK_HUB_ID = "newnus/justid-bijzondere-kenmerken"
 MAX_LEN = 512
 LABEL_THRESHOLD = 0.5

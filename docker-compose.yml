@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models:ro
+      - hf-cache:/cache/huggingface
+    environment:
+      HF_HOME: /cache/huggingface
+
+volumes:
+  hf-cache:
