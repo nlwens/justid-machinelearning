@@ -221,3 +221,20 @@ MIN_LABEL_FREQUENCY = 100
 TRAIN_FRACTION = 0.8
 VAL_FRACTION = 0.1
 TEST_FRACTION = 0.1
+
+
+# ---------------------------------------------------------------------------
+# Inference
+#
+# Fine-tuned weights live under models/ locally. The Docker image later loads
+# the same folders, or the Hugging Face Hub ids that replace them.
+# LABEL_THRESHOLD is the default cut-off used in training, eval and predict.
+# ---------------------------------------------------------------------------
+
+MODELS_DIR = BASE_DIR / "models"
+RG_MODEL_DIR = MODELS_DIR / "rg"
+PR_MODEL_DIR = MODELS_DIR / "pr"
+RG_HUB_ID = "newnus/justid-rechtsgebieden"
+PR_HUB_ID = "newnus/justid-procedures"
+MAX_LEN = 512
+LABEL_THRESHOLD = 0.5

@@ -1,0 +1,26 @@
+label,precision,recall,f1,support
+Hoger beroep,0.99,0.98,0.98,1945
+Eerste aanleg - meervoudig,0.96,0.93,0.95,1303
+Eerste aanleg - enkelvoudig,0.90,0.92,0.91,1271
+Cassatie,1.00,0.99,1.00,358
+Op tegenspraak,0.77,0.66,0.71,213
+Kort geding,0.87,0.96,0.91,208
+Beschikking,0.75,0.81,0.78,186
+Voorlopige voorziening,0.87,0.89,0.88,150
+Bodemzaak,0.69,0.53,0.60,88
+Eerste en enige aanleg,0.74,0.81,0.77,78
+Rekestprocedure,0.72,0.72,0.72,64
+Artikel 81 RO-zaken,0.97,0.95,0.96,59
+Wraking,0.91,0.92,0.92,53
+Raadkamer,0.73,0.75,0.74,44
+Hoger beroep kort geding,0.73,0.95,0.83,43
+Voorlopige voorziening+bodemzaak,0.77,0.77,0.77,39
+Tussenuitspraak,0.75,0.09,0.16,33
+Proceskostenveroordeling,0.00,0.00,0.00,37
+Mondelinge uitspraak,0.75,0.69,0.72,26
+Herziening,0.81,1.00,0.90,13
+Verzet,0.47,0.57,0.52,14
+Proces-verbaal,0.77,0.53,0.62,19
+Artikel 80a RO-zaken,0.96,0.96,0.96,28
+Vereenvoudigde behandeling,0.91,0.71,0.80,14
+Tussenuitspraak bestuurlijke lus,0.80,0.80,0.80,15

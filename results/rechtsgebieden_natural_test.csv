@@ -1,0 +1,21 @@
+label,precision,recall,f1,support
+Strafrecht,0.99,0.99,0.99,1051
+Bestuursrecht,1.00,1.00,1.00,2391
+Civiel recht,1.00,0.98,0.99,1573
+Socialezekerheidsrecht,0.94,0.96,0.95,519
+Personen- en familierecht,0.89,0.92,0.91,312
+Belastingrecht,0.98,1.00,0.99,436
+Vreemdelingenrecht,0.97,0.99,0.98,461
+Verbintenissenrecht,0.65,0.64,0.64,164
+Omgevingsrecht,0.74,0.80,0.76,108
+Ambtenarenrecht,0.91,0.89,0.90,79
+Insolventierecht,0.91,0.84,0.87,57
+Arbeidsrecht,0.76,0.69,0.72,70
+Internationaal publiekrecht,0.25,1.00,0.40,2
+Europees strafrecht,0.81,0.87,0.84,15
+Bestuursstrafrecht,0.90,0.95,0.93,39
+Bestuursprocesrecht,0.65,0.54,0.59,56
+Burgerlijk procesrecht,0.67,0.06,0.11,32
+Materieel strafrecht,0.50,0.05,0.09,20
+Strafprocesrecht,0.70,0.41,0.52,17
+Ondernemingsrecht,0.94,0.65,0.77,26
